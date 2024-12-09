@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DareDevilRiders</title>
+    <link rel="stylesheet" href="Login.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body class="abc">
+    <nav class="header">
+        <a href="Home.html">
+            <img src="logo.png" alt="tour and travel logo">
+        </a>
+        <h1>Dare Devil Riders</h1>
+        <div class="navbar">
+            <a href="Home.html">Home</a>
+            <div class="dropdown">
+                <a href="#">Tours</a>
+                <ul class="dropdown-menu">
+                    <li><a href="PastTours.html">Past Tours</a></li>
+                    <li><a href="FutureTours.html">Future Tours</a></li>
+                </ul>
+            </div>
+            <a href="Login.html">Login</a>
+            <a href="Registration.html">Register</a>
+            <a href="AboutUs.html">About Us</a>
+        </div>
+    </nav>
+    
+    
+
+    <!-- Login Form Section-->
+    <div class="login-container">
+        <h2>Login</h2>
+        <!-- <form action="processLogin.php" method="POST"> -->
+        <form  id="registrationForm" onsubmit="return showAlert()">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+            <div class="checkbox">
+                <input type="checkbox" id="terms" name="terms" required>
+                <label for="terms">I accept the <a href="#">Terms & Conditions</a></label>
+            </div>
+
+            <button type="submit" class="btn">Login</button>
+
+            <p>Don't have an account? <a href="Registration.html">Register here</a></p>
+        </form>
+    </div>
+
+    
+    <footer class="site-footer">
+        <p>Developed by Dnyaneshwar</p>
+    </footer>
+    <script>
+        document.getElementById("registrationForm").addEventListener("submit", function(event) {
+            event.preventDefault();  
+            alert("Login successfully!");
+            event.target.reset();
+        });
+    </script>
+</body>
+</html>

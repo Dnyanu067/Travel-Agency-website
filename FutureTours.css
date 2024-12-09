@@ -1,0 +1,235 @@
+.abz{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #007BFF;
+}
+.header {
+    background-color: rgb(19, 246, 155);
+    color: black;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .header img {
+    height: 100px;  
+    width: 100px;
+    margin-right: 20px;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 48px;  
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    gap: 30px;  
+    font-size: 28px;  
+    color: black;  
+    background-color: transparent;  
+  }
+  
+  .navbar a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  .navbar a:hover {
+    background-color: rgb(15, 200, 125);
+    color: white;
+  }
+  
+  /* Dropdown styling */
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    list-style: none;
+  
+    border: 1px solid #ccc;
+    top: 100%;
+  
+    z-index: 1000;
+    min-width: 150px;
+  }
+  
+  .dropdown-menu li {
+    margin: 0;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown-menu li a {
+    color: black;
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    background-color: white;
+  }
+  
+  .dropdown-menu li a:hover {
+    background-color: rgb(15, 200, 125);
+    color: white;
+  }
+  /* Style for the registration page */
+/* General body and HTML settings */
+html, body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(19, 246, 155); /* Matching color theme */
+}
+
+.registration-container {
+    background-color: white;
+    padding: 30px;
+    margin: 50px auto;
+    width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+/* Style for labels to ensure they are above input fields */
+label {
+    font-size: 16px;
+    color: black;
+    text-align: left;
+    display: block; /* Ensure label is on a new line */
+    margin-top: 15px; /* Space between label and input */
+}
+
+/* Input and textarea styling */
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="email"],
+input[type="date"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    display: block; /* Ensures input is displayed on a new line */
+}
+
+/* Styling for radio buttons */
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Submit button styling */
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer Styling */
+.site-footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(15, 200, 125);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 14px;
+    color: #333;
+    border-top: 1px solid #ddd;
+}
+.marquee-container {
+  margin: 20px 0;
+  text-align: center;
+  background-color: #68e9fa;
+  padding: 10px;
+}
+
+.nature-img {
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 10px;
+  border-radius: 8px;
+}
+
+/* Future Tours Table */
+.future-tours-container {
+  padding: 30px;
+  margin: 50px auto;
+  width: 80%;
+  background-color: rgb(240, 92, 92);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  font-size: 28px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: rgb(15, 200, 125);
+  color: white;
+  font-size: 16px;
+}
+
+td {
+  font-size: 14px;
+}
+
+/* Footer styling */
+.site-footer {
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(15, 200, 125);
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  font-size: 14px;
+  color: #333;
+  border-top: 1px solid #ddd;
+}

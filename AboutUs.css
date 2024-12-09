@@ -1,0 +1,144 @@
+.cba
+  {
+    background-color: #007BFF;
+  }
+
+
+
+.header {
+    background-color: rgb(19, 246, 155);
+    color: black;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .header img {
+    height: 100px;  
+    width: 100px;
+    margin-right: 20px;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 48px;  
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    gap: 30px;  
+    font-size: 28px;  
+    color: black;  
+    background-color: transparent;  
+  }
+  
+  .navbar a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  .navbar a:hover {
+    background-color: rgb(15, 200, 125);
+    color: white;
+  }
+  
+  /* Dropdown styling */
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    list-style: none;
+  
+    border: 1px solid #ccc;
+    top: 100%;
+  
+    z-index: 1000;
+    min-width: 150px;
+  }
+  
+  .dropdown-menu li {
+    margin: 0;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown-menu li a {
+    color: black;
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    background-color: white;
+  }
+  
+  .dropdown-menu li a:hover {
+    background-color: rgb(15, 200, 125);
+    color: white;
+  }
+  .about-container {
+    margin: 40px;
+    padding: 20px;
+    background-color: rgb(229, 158, 77);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-size: 32px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 24px;
+    color: rgb(15, 200, 125);
+    margin-top: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+ul li a {
+    color: rgb(244, 247, 246);
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer styling */
+.site-footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(15, 200, 125);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 14px;
+    color: #333;
+    border-top: 1px solid #ddd;
+}
