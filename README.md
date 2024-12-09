@@ -41,7 +41,7 @@ How to Use
 Clone the repository:
 bash
 Copy code
-git clone https://github.com/your-username/daredevil-riders-website.git  
+git clone https://github.com/Dnyanu067/Travel-Agency-website.git  
 Open the Home.html file in your preferred browser to start exploring the website.
 Technologies Used
 HTML5
